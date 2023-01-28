@@ -34,7 +34,7 @@ export default function Courses() {
           </div>
         </div>
 
-        <button>See All Courses</button>
+        {/* <button>See All Courses</button> */}
       </div>
     </>
   );
