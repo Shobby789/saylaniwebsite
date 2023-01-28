@@ -49,14 +49,14 @@
 
 @media screen and (max-width: 600px) {
   .slider-container {
-    height: 60vh;
+    height: 80vh;
   }
   .slider-container > img {
-    height: 60vh;
+    height: 80vh;
   }
   .centered {
     position: absolute;
-    top: 37%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* border: 1px solid white; */
@@ -65,11 +65,12 @@
   .centered > button {
     margin-top: 10px;
     padding: 5px;
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .centered h1 {
-    font-size: 17px;
+    font-size: 25px;
+    /* border: 1px solid white; */
   }
   .centered p {
     font-size: 13px;
