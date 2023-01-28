@@ -16,7 +16,7 @@ export default function Home() {
       <News />
       <Facility />
       <Enroll /> */}
-      <Footer />
+      {/* <Footer /> */}
       <Outlet />
     </div>
   );

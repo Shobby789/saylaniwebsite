@@ -12,8 +12,8 @@ export default function Courses() {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
           mollitia.
         </p>
-        <div className="courseList border border-dark">
-          <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
+        <div className="courseList">
+          {/* <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course1} alt="" />
             <h5 className="mb-0">
               Web & Mobile <span className="app">App</span>
@@ -31,10 +31,10 @@ export default function Courses() {
             <img src={course3} alt="" />
             <h5 className="mb-0">AI Chatbot</h5>
             <button className="btn btn-success">Enroll Now</button>
-          </div>
+          </div> */}
         </div>
 
-        {/* <button>See All Courses</button> */}
+        <button>See All Courses</button>
       </div>
     </>
   );

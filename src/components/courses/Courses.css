@@ -13,38 +13,7 @@
   font-weight: bolder;
 }
 
-.courseList {
-  max-width: 80%;
-  height: 60vh;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
-
-.courseBox {
-  width: 30%;
-  height: 60vh;
-}
-
-.card {
-  height: 220px;
-  margin: auto;
-}
-
-.courseBox img {
-  width: 100%;
-  height: 70%;
-  background-repeat: no-repeat;
-}
-
-.courseBox > h5 {
-  text-align: center;
-  padding-top: 0px;
-}
-
-.courseBox button {
+/* .courseBox button {
   width: 100%;
   margin-top: 20px;
 }
@@ -53,4 +22,4 @@
   width: 160px;
   margin: auto;
   margin-top: -10px;
-}
+} */
