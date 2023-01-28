@@ -1,0 +1,32 @@
+.guide {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  height: 260px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(29, 113, 29);
+}
+
+.guide > h2 {
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+input[type="email"] {
+  margin-right: 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+  width: 300px;
+  background-color: transparent;
+  outline: none;
+}
+button {
+  height: 60px;
+}

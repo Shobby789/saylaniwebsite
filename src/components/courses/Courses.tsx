@@ -32,7 +32,6 @@ export default function Courses() {
             <h5>AI Chatbot</h5>
             <button className="btn btn-success">Enroll Now</button>
           </div>
-
           {/*CourseList ends here  */}
         </div>
 

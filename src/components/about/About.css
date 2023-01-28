@@ -1,0 +1,61 @@
+.about-container {
+  width: 100%;
+  height: auto;
+}
+
+.about-header {
+  width: 90%;
+  height: 70vh;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.introduction {
+  width: 40%;
+  /* border: 1px solid black; */
+  margin-left: 100px;
+  position: absolute;
+  top: 30%;
+}
+
+.introduction h2 {
+  color: black;
+  font-weight: 500;
+}
+
+.introduction p {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.img-box {
+  width: 40%;
+  height: 60vh;
+  /* border: 1px solid black; */
+  margin-right: 100px;
+  position: absolute;
+  left: 700px;
+  top: 30px;
+  border-radius: 5px;
+  background-image: url("../images/campus.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.more {
+  /* border: 2px solid black; */
+  margin-top: 50px;
+}
+
+.more p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.more h2 {
+  margin-left: 100px;
+}
+
