@@ -1,0 +1,34 @@
+.slider-container {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-container > img {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.centered > button {
+  color: white;
+}
+
+@media (max-width: 952px) {
+  .slider-container {
+    height: 60vh;
+  }
+  .slider-container > img {
+    height: 60vh;
+  }
+}

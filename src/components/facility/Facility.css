@@ -1,0 +1,79 @@
+.campus {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#facility {
+  height: 75vh;
+}
+.facilities {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+#library {
+  margin-right: 40px;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  background-image: url("../images/teacher.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#ground {
+  margin-right: 40px;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  background-image: url("../images/projector-class.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#food {
+  width: 350px;
+  height: 300px;
+  position: relative;
+  background-image: url("../images/labs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 952px) {
+  #facility {
+    height: 33vh !important;
+  }
+  .campus > h1 {
+    margin-top: 20px;
+  }
+  .campus > p {
+    margin-top: 25px !important;
+  }
+  .campus > h1 {
+    display: block;
+    padding: 0px;
+  }
+  .facilities {
+    /* border: 2px solid black; */
+    height: 250px;
+    margin-top: 20px;
+  }
+  #library {
+    width: 27%;
+    height: 200px;
+  }
+  #ground {
+    width: 27%;
+    height: 200px;
+  }
+  #food {
+    width: 27%;
+    height: 200px;
+  }
+}

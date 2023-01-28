@@ -1,0 +1,47 @@
+.navbar {
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  background-color: transparent;
+}
+
+.navbar img {
+  width: 220px;
+  height: 140px;
+  position: relative;
+  top: -8px;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+.navlinks {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  top: -8px;
+  right: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 10px 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  color: rgb(233, 80, 25);
+  transition: 0.3s;
+}

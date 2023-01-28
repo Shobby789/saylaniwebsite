@@ -1,0 +1,46 @@
+.head {
+  height: 100vh;
+  background-image: url("../images/head.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 280px;
+  color: white;
+}
+
+.content h1 {
+  font-size: 75px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.content p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.content button {
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: 1px solid rgb(167, 149, 149);
+  border-radius: 5px;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.content button:hover {
+  /* background-color: rgb(233, 80, 25); */
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
