@@ -8,33 +8,35 @@ export default function Courses() {
     <>
       <div className="courses-container">
         <h1>Courses We Offer</h1>
-        <p className="mt-3">
+        <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
           mollitia.
         </p>
         <div className="courseList">
-          {/* <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
+          <div className="courseBox shadow p-3 bg-white rounded text-center">
             <img src={course1} alt="" />
-            <h5 className="mb-0">
+            <h5>
               Web & Mobile <span className="app">App</span>
             </h5>
             <button className="btn btn-success">Enroll Now</button>
           </div>
 
-          <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
+          <div className="courseBox shadow p-3 bg-white rounded text-center">
             <img src={course2} alt="" />
-            <h5 className="mb-0">Logo Designing</h5>
+            <h5>Logo Designing</h5>
             <button className="btn btn-success">Enroll Now</button>
           </div>
 
-          <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
+          <div className="courseBox shadow p-3 bg-white rounded text-center">
             <img src={course3} alt="" />
-            <h5 className="mb-0">AI Chatbot</h5>
+            <h5>AI Chatbot</h5>
             <button className="btn btn-success">Enroll Now</button>
-          </div> */}
+          </div>
         </div>
 
-        <button>See All Courses</button>
+        <button id="AllCoursesBtn" className="btn btn-success">
+          See All Courses
+        </button>
       </div>
     </>
   );

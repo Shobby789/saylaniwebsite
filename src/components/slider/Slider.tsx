@@ -23,15 +23,13 @@ export default function Slider() {
       <div className="slider-container">
         <img src={allImages[selectedImage]} alt="" />
         <div className="centered">
-          <h1 className="fw-bold fs-1">Saylani Mass Institute of Technology</h1>
+          <h1 className="fw-bold">Saylani Mass Institute of Technology</h1>
           <p className="mt-3">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet a
             quos, atque doloremque dolorem illo incidunt iure et vero autem?
           </p>
           {/* <Button btnTitle="Explore More" /> */}
-          <button className="btn btn-success py-3 px-4 fs-6">
-            Explore More
-          </button>
+          <button className="btn btn-success">Explore More</button>
         </div>
       </div>
     </>
