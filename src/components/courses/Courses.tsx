@@ -13,16 +13,7 @@ export default function Courses() {
           mollitia.
         </p>
         <div className="courseList">
-          <div className="box">
-            <img src={course1} alt="" />
-          </div>
-          <div className="box">
-            <img src={course2} alt="" />
-          </div>
-          <div className="box">
-            <img src={course3} alt="" />
-          </div>
-          {/* <div className="courseBox shadow p-3 bg-white rounded text-center">
+          <div className="courseBox shadow p-3 bg-white rounded text-center">
             <img src={course1} alt="" />
             <h5>
               Web & Mobile <span className="app">App</span>
@@ -40,20 +31,14 @@ export default function Courses() {
             <img src={course3} alt="" />
             <h5>AI Chatbot</h5>
             <button className="btn btn-success">Enroll Now</button>
-          </div> */}
-          {/* <h5>shoaib muhammad</h5>
-          <h5>shoaib muhammad</h5>
-          <h5>shoaib muhammad</h5>
-          <h5>shoaib muhammad</h5>
-          <h5>shoaib muhammad</h5>
-          <h5>shoaib muhammad</h5> */}
+          </div>
 
           {/*CourseList ends here  */}
         </div>
 
-        {/* <button id="AllCoursesBtn" className="btn btn-success">
+        <button id="AllCoursesBtn" className="btn btn-success">
           See All Courses
-        </button> */}
+        </button>
       </div>
     </>
   );
