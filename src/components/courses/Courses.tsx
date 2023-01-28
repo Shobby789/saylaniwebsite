@@ -12,7 +12,7 @@ export default function Courses() {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores,
           mollitia.
         </p>
-        <div className="courseList">
+        <div className="courseList border border-dark">
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course1} alt="" />
             <h5 className="mb-0">
@@ -33,7 +33,8 @@ export default function Courses() {
             <button className="btn btn-success">Enroll Now</button>
           </div>
         </div>
-        <button className="btn btn-success py-3">See All Courses</button>
+
+        <button>See All Courses</button>
       </div>
     </>
   );

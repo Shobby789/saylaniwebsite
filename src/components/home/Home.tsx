@@ -12,10 +12,10 @@ export default function Home() {
     <div>
       <Slider />
       <Courses />
-      <Campuses />
+      {/* <Campuses />
       <News />
       <Facility />
-      <Enroll />
+      <Enroll /> */}
       <Footer />
       <Outlet />
     </div>

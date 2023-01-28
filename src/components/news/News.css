@@ -35,36 +35,3 @@
 .arrowDiv {
   cursor: pointer;
 }
-
-@media (max-width: 952px) {
-  .divThree {
-    height: 40vh;
-  }
-  .newsCard {
-    height: 290px;
-    width: 25%;
-    /* height: auto; */
-  }
-  .newsCard > img {
-    height: 50%;
-  }
-  .newsCard > button {
-    margin-top: 0px !important;
-    padding: 2px 4px;
-  }
-  .newsCard > p {
-    font-size: 16px;
-    line-height: 16px;
-    padding-top: 4px;
-  }
-  .arrowDiv {
-    width: 105px;
-  }
-  .arrowDiv a {
-    padding: 0px;
-  }
-  .eventsDiv {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}

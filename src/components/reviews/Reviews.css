@@ -37,25 +37,3 @@
   height: 20px;
   cursor: pointer;
 }
-
-@media (max-width: 952px) {
-  .reviews {
-    border: 2px solid black;
-    background-color: pink;
-    height: 45vh;
-  }
-  .comments {
-    border: 1px solid black;
-  }
-  .user {
-    width: 40%;
-    height: 200px;
-  }
-  .user > h6 {
-    font-size: 20px;
-  }
-  .user > p {
-    margin-top: 2px;
-    line-height: 18px;
-  }
-}

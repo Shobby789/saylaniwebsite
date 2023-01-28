@@ -35,16 +35,3 @@ footer > p {
 #social-icons {
   cursor: pointer;
 }
-
-@media (max-width: 952px) {
-  footer {
-    height: 24vh;
-  }
-  footer > p {
-    width: 76%;
-    text-align: center;
-  }
-  #social-icons {
-    padding-top: 10px;
-  }
-}
