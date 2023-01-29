@@ -3,10 +3,10 @@ import About from "./components/about/About";
 import Certification from "./components/certification/Certification";
 import Contact from "./components/contact/Contact";
 import Menu from "./components/navbar/Menu";
-// import AllCourses from "./components/allcourses/AllCourses";
 import type { RouteObject } from "react-router-dom";
 import { useRoutes } from "react-router-dom";
 import AllCourses from "./components/allcourses/AllCourses";
+import Form from "./components/form/Form";
 
 function App() {
   let routes: RouteObject[] = [
@@ -21,6 +21,10 @@ function App() {
         {
           path: "/AllCourses",
           element: <AllCourses />,
+        },
+        {
+          path: "/Form",
+          element: <Form />,
         },
         {
           path: "/about",

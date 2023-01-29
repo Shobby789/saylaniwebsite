@@ -2,7 +2,7 @@ import "./About.css";
 import { Outlet } from "react-router-dom";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
-import SaylaniGuideForm from "./saylani-guide/SaylaniGuideForm";
+// import SaylaniGuideForm from "./saylani-guide/SaylaniGuideForm";
 
 export default function About() {
   return (
@@ -58,7 +58,7 @@ export default function About() {
             mobile air care clinic & operation theater, and in case of natural
             disasters aid) our organization is serving humanity.
           </p>
-          <p>
+          <p className="mb-5">
             More than 300,000 people are benefited daily by the Saylani. The
             organization provides vocational training to unskilled people in
             various fields, renting of poor people houses, school fees and
@@ -69,7 +69,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <SaylaniGuideForm />
+      {/* <SaylaniGuideForm /> */}
       <Footer />
       <Outlet />
     </div>

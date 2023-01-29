@@ -1,14 +1,10 @@
-import { Outlet } from "react-router-dom";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import "./Contact.css";
-import ContactForm from "../form/contactForm/ContactForm";
+import "./ContactForm.css";
+import logo from "./image/saylani-logo-1.png";
 
-export default function Contact() {
+export default function ContactForm() {
   return (
-    <div>
-      <Header heading="Contact us" />
-      {/* <div className="contact-container">
+    <>
+      <div className="contact-container">
         <img src={logo} alt="" />
         <div className="form-container">
           <form action="/action_page.php">
@@ -44,11 +40,7 @@ export default function Contact() {
             <input type="submit" defaultValue="Submit" />
           </form>
         </div>
-      </div> */}
-
-      <ContactForm />
-      <Footer />
-      <Outlet />
-    </div>
+      </div>
+    </>
   );
 }

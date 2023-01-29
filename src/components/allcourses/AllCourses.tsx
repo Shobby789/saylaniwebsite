@@ -4,9 +4,13 @@ import course2 from "../images/logo-design.jpg";
 import course3 from "../images/AI.jpg";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 export default function AllCourses() {
+  const navigate = useNavigate();
+  const navigateToForm = () => {
+    navigate("/Form");
+  };
   return (
     <>
       <Header />
@@ -20,37 +24,49 @@ export default function AllCourses() {
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course1} alt="" />
             <h5 className="mb-0">Web & Mobile App</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
 
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course2} alt="" />
             <h5 className="mb-0">Logo Designing</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
 
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course3} alt="" />
             <h5 className="mb-0">AI Chatbot</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
 
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course1} alt="" />
             <h5 className="mb-0">AI & Data Science</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
 
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course2} alt="" />
             <h5 className="mb-0">Techno Kids Online Course</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
 
           <div className="courseBox shadow p-3 mb-5 bg-white rounded text-center">
             <img src={course3} alt="" />
             <h5 className="mb-0">Mobile Repairing</h5>
-            <button className="btn btn-success">Enroll Now</button>
+            <button className="btn btn-success" onClick={navigateToForm}>
+              Enroll Now
+            </button>
           </div>
         </div>
       </div>

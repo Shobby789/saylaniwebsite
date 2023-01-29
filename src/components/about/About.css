@@ -6,16 +6,16 @@
 .about-header {
   width: 90%;
   height: 70vh;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: auto;
   position: relative;
   border-radius: 10px;
 }
 
 .introduction {
-  width: 40%;
+  width: 45%;
   /* border: 1px solid black; */
-  margin-left: 100px;
+  margin-left: 15px;
   position: absolute;
   top: 30%;
 }
