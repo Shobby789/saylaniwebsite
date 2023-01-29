@@ -1,4 +1,3 @@
-// import Button from "../button/Button";
 import "./Enroll.css";
 
 export default function Enroll() {
@@ -10,7 +9,6 @@ export default function Enroll() {
             Subscribe to our news letter <br />
             and get notified
           </h1>
-          {/* <Button btnTitle="Subscribe Our News Letter" /> */}
           <button className="btn btn-success">Subscribe Our News Letter</button>
         </div>
       </div>

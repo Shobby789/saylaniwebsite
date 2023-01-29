@@ -2,7 +2,7 @@ import "./Courses.css";
 import course1 from "../images/webdev.jpg";
 import course2 from "../images/logo-design.jpg";
 import course3 from "../images/AI.jpg";
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Courses() {
   const navigate = useNavigate();

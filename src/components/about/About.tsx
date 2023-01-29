@@ -12,10 +12,17 @@ export default function About() {
           <div className="introduction">
             <h2>Introduction</h2>
             <p>
-              Saylani Welfare Internation Trust has been serving humanity for 22
-              years. Saylani has spent around 7 billion rupees in the service of
-              humanity in 2021 and our place is to spend about 11 billion rupees
-              for this cause in 2022.
+              Saylani Welfare International Trust has been working for the last
+              22 years to improve the conditions of the less privileged,
+              helpless, and handicapped individuals. The organization is working
+              day and night to make life happier, especially for the middle
+              class, lower middle class and even lower class. At time of
+              establishing the organization, the founder of Saylani Welfare
+              International Trust and a few of his associates had made a
+              commitment to serve the distressed people living in Pakistan and
+              abroad in all stages of life. It is a blessing in disguise that
+              today the organization is serving humanity in more than 63 areas
+              of life without any discrimination.
             </p>
           </div>
           <div className="img-box"></div>

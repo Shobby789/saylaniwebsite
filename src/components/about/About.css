@@ -17,7 +17,7 @@
   /* border: 1px solid black; */
   margin-left: 15px;
   position: absolute;
-  top: 30%;
+  top: 20%;
 }
 
 .introduction h2 {
@@ -46,7 +46,7 @@
 
 .more {
   /* border: 2px solid black; */
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .more p {

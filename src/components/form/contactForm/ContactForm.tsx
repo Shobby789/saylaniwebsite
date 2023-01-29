@@ -4,7 +4,7 @@ import logo from "./image/saylani-logo-1.png";
 export default function ContactForm() {
   return (
     <>
-      <div className="contact-container">
+      <div className="contact-container mb-5">
         <img src={logo} alt="" />
         <div className="form-container">
           <form action="/action_page.php">

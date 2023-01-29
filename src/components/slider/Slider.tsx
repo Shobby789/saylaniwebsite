@@ -4,7 +4,7 @@ import img3 from "../images/hero3.jpg";
 import img4 from "../images/hero4.jpg";
 import { useEffect, useState } from "react";
 import "./Slider.css";
-import Button from "../button/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function Slider() {
   const [selectedImage, setSelectedImage] = useState(0);
@@ -18,6 +18,11 @@ export default function Slider() {
     }, 6000);
   }, []);
 
+  const navigate = useNavigate();
+  // navigate to about page
+  const navigateToAbout = () => {
+    navigate("/About");
+  };
   return (
     <>
       <div className="slider-container">
@@ -29,7 +34,9 @@ export default function Slider() {
             quos, atque doloremque dolorem illo incidunt iure et vero autem?
           </p>
           {/* <Button btnTitle="Explore More" /> */}
-          <button className="btn btn-success">Explore More</button>
+          <button className="btn btn-success" onClick={navigateToAbout}>
+            Explore More
+          </button>
         </div>
       </div>
     </>
